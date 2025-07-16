@@ -53,3 +53,8 @@ console.log(`Hello ${name}`);
 //^ when not use typescript
 //! small project
 //! strict runtime environment
+
+const greet = (name : string) : void => {
+    console.log(`Hello ${name} How are you? Are you happy today?What about yesterday?`);
+}
+greet("Pooja")

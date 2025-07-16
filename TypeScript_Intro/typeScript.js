@@ -16,3 +16,7 @@ console.log("Hello ".concat(name));
 //^ when not use typescript
 //! small project
 //! strict runtime environment
+var greet = function (name) {
+    console.log("Hello ".concat(name, " How are you? Are you happy today?What about yesterday?"));
+};
+greet("Pooja");
