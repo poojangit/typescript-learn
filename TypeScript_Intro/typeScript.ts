@@ -24,6 +24,7 @@
 //~ initialize ---> npm init -y ---> its a command to initialize the node project by adding all the node dependencies
 //~ run ----> tsc fileName.ts
 //~ to run automatically ----> tsc fileName --watch
+//~ to run the code in the dev mode in a single line -----> npx ts-node-dev filename
 
 //& why to use typescript?
 //~ Because it is a extended javascript
