@@ -15,7 +15,7 @@
 //! bigint	let big: bigint = 123n;
 
 ///^ 2. 🔸 Object Types & Special Structures
-//! Type	Example
+
 //! object	let obj: object = { name: "John" };
 //! array	let nums: number[] = [1, 2, 3]; or Array<number>
 //! tuple	let tuple: [string, number] = ["age", 30];
