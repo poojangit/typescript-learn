@@ -165,5 +165,49 @@ let numbers : number[] = [2,3,5,7]
 let name3 : string[] = ["Pooja", "Preethi"]
 console.log(name3);
 console.log(numbers);
+let fruits: Array<string> = ["apple", "orange", "cherry"]
+console.log(fruits);
+
+
+function printNames(names: string[]): void {
+  names.forEach((name) => console.log(name));
+}
+
+//^ tupple
+
+//! Tupple is a fixed length array where each element has a specific type and position
+
+let user3 : [string, number] = ["Lakshmi", 50]
+console.log(user3);
+console.log(user3[0].toLowerCase());
+console.log(user3[1].toFixed(2));
+
+let data : [string,number?]
+data = ["hello"]
+data = ["hello", undefined]
+console.log(data);
+
+function getUser() : [string, number]{
+    return ["Vinay", 29]
+}
+const [name4, age1] = getUser()
+console.log(getUser());
+
+function dataFetch() : [string, number?] {
+    return ["Data fetched successfully!!", 200 ]
+}
+const [message, statusCode] = dataFetch()
+console.log(dataFetch());
+
+//~ destructuring from tuples
+
+type Result = [boolean, string]
+function validateInput(input : string): Result {
+    if(input.length >= 5)
+        return [true, "Valid input"]
+    return [false, "Too short"]
+}
+const [isValid, message1] = validateInput("test")
+console.log(validateInput("test"));
 
 
