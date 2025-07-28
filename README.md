@@ -1,7 +1,7 @@
 # typescript-learn
 
 # Setup - Install the typescript globally
-check node ---> node -v
+check node ---> node -v                                                                                                                                                                                                
 check npm ----> npm -v
 install typescript ----> npm install -g typescript
 typescript compiler ----> tsc -v
